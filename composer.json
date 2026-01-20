@@ -1,10 +1,8 @@
 {
-    "name": "2amigos/yii2-date-picker-widget",
-    "description": "Bootstrap DatePicker widget for Yii2.",
+    "name": "jesuguitan/yii2-date-picker-widget",
+    "description": "DatePicker widget for Yii2 (forked from 2amigos)",
     "type": "yii2-extension",
     "keywords": [
-        "2amigos",
-        "yii",
         "yii2",
         "yii 2",
         "extension",
@@ -26,16 +24,15 @@
         "source": "https://github.com/2amigos/yii2-date-picker-widget"
     },
     "require": {
-        "yiisoft/yii2": ">=2.0.9",
-        "yiisoft/yii2-bootstrap": "*",
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "yiisoft/yii2": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*"
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\datepicker\\": "src"
+            "jesuguitan\\widgets\\datepicker\\": ""
         }
     },
     "extra": {
